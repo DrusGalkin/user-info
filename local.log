@@ -1,0 +1,1039 @@
+2025-06-09T16:48:54.428+0300	INFO	api/main.go:14	Логгер и конфиг найден
+2025-06-09T17:01:03.840+0300	INFO	api/main.go:16	Логгер и конфиг найден
+2025-06-09T17:09:22.340+0300	INFO	api/main.go:18	Логгер и конфиг найден
+2025-06-09T17:10:22.103+0300	INFO	api/main.go:18	Логгер и конфиг найден
+2025-06-09T23:28:16.482+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:28:41.875+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:28:42.674+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:28:43.148+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:28:43.509+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:28:43.793+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:28:44.343+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:28:44.649+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:28:45.035+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:28:45.374+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:28:45.757+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:28:46.103+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:28:46.456+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:28:46.830+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:28:47.224+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:28:47.589+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:29:01.623+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:29:31.635+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:30:05.731+0300	INFO	api/main.go:19	Логгер и конфиг найден
+2025-06-09T23:30:09.033+0300	INFO	api/main.go:19	Логгер и конфиг найден
+2025-06-09T23:30:09.407+0300	INFO	api/main.go:19	Логгер и конфиг найден
+2025-06-09T23:30:09.592+0300	INFO	api/main.go:19	Логгер и конфиг найден
+2025-06-09T23:30:09.732+0300	INFO	api/main.go:19	Логгер и конфиг найден
+2025-06-09T23:30:10.364+0300	INFO	api/main.go:19	Логгер и конфиг найден
+2025-06-09T23:30:10.530+0300	INFO	api/main.go:19	Логгер и конфиг найден
+2025-06-09T23:30:10.699+0300	INFO	api/main.go:19	Логгер и конфиг найден
+2025-06-09T23:30:11.341+0300	INFO	api/main.go:19	Логгер и конфиг найден
+2025-06-09T23:31:09.647+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:34:39.848+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:35:17.800+0300	INFO	api/main.go:21	Логгер и конфиг найден
+2025-06-09T23:35:31.109+0300	INFO	api/main.go:18	Логгер и конфиг найден
+2025-06-10T22:59:04.080+0300	INFO	api/main.go:19	Логгер и конфиг найден
+2025-06-10T22:59:36.970+0300	INFO	api/main.go:19	Логгер и конфиг найден
+2025-06-10T23:01:40.689+0300	INFO	api/main.go:19	Логгер и конфиг найден
+2025-06-10T23:02:18.305+0300	INFO	api/main.go:19	Логгер и конфиг найден
+2025-06-10T23:09:33.936+0300	INFO	api/main.go:19	Логгер и конфиг найден
+2025-06-12T12:35:00.777+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T12:35:21.799+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T12:35:28.001+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T12:40:14.559+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T12:41:34.554+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T12:42:23.761+0300	ERROR	repository/user_get.go:60	Repository.ByEmail	{"op": "Repository.ByEmail", "email": "andrew.galkin2018@gmail.com", "error": "sql: expected 3 destination arguments in Scan, not 1"}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).ByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_get.go:60
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).UserByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_get.go:10
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).Login
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_post.go:45
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T12:43:42.705+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T12:45:03.508+0300	ERROR	repository/user_get.go:60	Repository.ByEmail	{"op": "Repository.ByEmail", "email": "123", "error": "sql: no rows in result set"}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).ByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_get.go:60
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).UserByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_get.go:10
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).Register
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_post.go:21
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T12:47:48.738+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T12:47:52.322+0300	ERROR	repository/user_get.go:60	Repository.ByEmail	{"op": "Repository.ByEmail", "email": "123", "error": "sql: no rows in result set"}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).ByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_get.go:60
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).UserByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_get.go:10
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).Register
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_post.go:23
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T12:48:47.158+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T12:48:49.638+0300	ERROR	repository/user_get.go:60	Repository.ByEmail	{"op": "Repository.ByEmail", "email": "123", "error": "sql: no rows in result set"}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).ByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_get.go:60
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).UserByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_get.go:10
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).Register
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_post.go:23
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T12:49:01.685+0300	ERROR	repository/user_get.go:60	Repository.ByEmail	{"op": "Repository.ByEmail", "email": "123", "error": "sql: no rows in result set"}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).ByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_get.go:60
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).UserByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_get.go:10
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).Register
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_post.go:23
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T12:51:26.600+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T12:51:32.037+0300	ERROR	repository/user_get.go:62	Repository.ByEmail	{"op": "Repository.ByEmail", "email": "123423", "error": "sql: no rows in result set"}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).ByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_get.go:62
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).UserByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_get.go:10
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).Register
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_post.go:23
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T12:53:33.766+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T12:53:39.992+0300	DEBUG	repository/user_get.go:63	user not found	{"op": "Repository.ByEmail", "email": "12543423", "email": "12543423"}
+2025-06-12T12:55:02.973+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T12:55:07.461+0300	WARN	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "125ыва43423", "email": "125ыва43423"}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).ByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_get.go:63
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).UserByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_get.go:10
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).Register
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_post.go:23
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T12:56:13.491+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T12:56:18.353+0300	WARN	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "125ыва434qwe23", "email": "125ыва434qwe23"}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).ByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_get.go:63
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).UserByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_get.go:10
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).Register
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_post.go:21
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T12:57:13.167+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T12:57:25.943+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T12:57:29.869+0300	WARN	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "11125ыва434qwe23", "email": "11125ыва434qwe23"}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).ByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_get.go:63
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).UserByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_get.go:10
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).Register
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_post.go:23
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T12:58:23.827+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T12:58:38.250+0300	WARN	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "11125ываas434qwe23", "email": "11125ываas434qwe23"}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).ByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_get.go:63
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).UserByEmail
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_get.go:10
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).Register
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_post.go:23
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T13:02:58.709+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T13:03:02.728+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "11125ываas434qwйцуe23", "email": "11125ываas434qwйцуe23"}
+2025-06-12T13:03:43.843+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "01", "email": "01"}
+2025-06-12T13:05:46.397+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T13:06:12.908+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T13:08:10.635+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T13:12:36.413+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T13:23:19.914+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T13:24:49.714+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T13:25:00.885+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T13:29:40.914+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T13:36:10.337+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "01", "email": "01"}
+2025-06-12T13:37:34.553+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "01", "email": "01"}
+2025-06-12T13:50:14.525+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T13:53:38.981+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T13:54:23.870+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "011", "email": "011"}
+2025-06-12T13:56:29.344+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T13:56:56.707+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "011231", "email": "011231"}
+2025-06-12T13:57:18.154+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "3", "email": "3"}
+2025-06-12T14:00:16.374+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T14:02:46.317+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T14:03:00.693+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "23", "email": "23"}
+2025-06-12T14:47:39.703+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T15:01:02.990+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T15:01:04.594+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "DrusGalkin", "email": "DrusGalkin"}
+2025-06-12T15:01:28.704+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T15:02:19.468+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T15:02:34.191+0300	ERROR	repository/user_get.go:95	Repository.ByUsername	{"op": "Repository.ByUsername", "email": "DrusGalkin", "error": "sql: expected 3 destination arguments in Scan, not 1"}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).ByUsername
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_get.go:95
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).UserByUsername
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_get.go:14
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).UserByUsername
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_get.go:39
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T15:02:36.447+0300	ERROR	repository/user_get.go:95	Repository.ByUsername	{"op": "Repository.ByUsername", "email": "DrusGalkin", "error": "sql: expected 3 destination arguments in Scan, not 1"}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).ByUsername
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_get.go:95
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).UserByUsername
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_get.go:14
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).UserByUsername
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_get.go:39
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T15:02:44.973+0300	ERROR	repository/user_get.go:95	Repository.ByUsername	{"op": "Repository.ByUsername", "email": "3", "error": "sql: expected 3 destination arguments in Scan, not 1"}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).ByUsername
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_get.go:95
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).UserByUsername
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_get.go:14
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).UserByUsername
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_get.go:39
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T15:05:13.127+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T15:11:10.259+0300	ERROR	repository/user_get.go:33	Repository.ByID	{"op": "Repository.ByID", "uid": 1, "error": "sql: expected 3 destination arguments in Scan, not 1"}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).ByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_get.go:33
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).UserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_get.go:6
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).UserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_get.go:13
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T15:11:42.997+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T16:31:52.578+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T16:33:41.755+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T16:34:03.502+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T16:34:05.943+0300	ERROR	repository/user_delete.go:34	Пользователь не удален	{"op": "Repository.DeleteByID", "uid": 2}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).DeleteByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_delete.go:34
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_delete.go:4
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_delete.go:13
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/DrusGalkin/user-info/internal/transport/http.SetupRouters.AuthMiddleware.func1
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/middleware/auth.go:30
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T16:34:23.019+0300	ERROR	repository/user_delete.go:34	Пользователь не удален	{"op": "Repository.DeleteByID", "uid": 2}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).DeleteByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_delete.go:34
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_delete.go:4
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_delete.go:13
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/DrusGalkin/user-info/internal/transport/http.SetupRouters.AuthMiddleware.func1
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/middleware/auth.go:30
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T16:36:07.828+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T16:36:13.735+0300	ERROR	repository/user_delete.go:34	Пользователь не удален	{"op": "Repository.DeleteByID", "uid": 2, "id": 2}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).DeleteByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_delete.go:34
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_delete.go:4
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_delete.go:13
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/DrusGalkin/user-info/internal/transport/http.SetupRouters.AuthMiddleware.func1
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/middleware/auth.go:30
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T16:36:37.139+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T16:36:41.265+0300	ERROR	repository/user_delete.go:34	Пользователь не удален	{"op": "Repository.DeleteByID", "uid": 2, "id": 2}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).DeleteByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_delete.go:34
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_delete.go:4
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_delete.go:13
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/DrusGalkin/user-info/internal/transport/http.SetupRouters.AuthMiddleware.func1
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/middleware/auth.go:30
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T16:37:10.496+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T16:37:13.312+0300	ERROR	repository/user_delete.go:34	Пользователь не удален	{"op": "Repository.DeleteByID", "uid": 2, "id": 2}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).DeleteByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_delete.go:34
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_delete.go:4
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_delete.go:13
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/DrusGalkin/user-info/internal/transport/http.SetupRouters.AuthMiddleware.func1
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/middleware/auth.go:30
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T16:37:24.581+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T16:37:26.195+0300	ERROR	repository/user_delete.go:34	Пользователь не удален	{"op": "Repository.DeleteByID", "uid": 2, "id": 2}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).DeleteByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_delete.go:34
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_delete.go:4
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_delete.go:13
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/DrusGalkin/user-info/internal/transport/http.SetupRouters.AuthMiddleware.func1
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/middleware/auth.go:30
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T16:37:34.944+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T16:37:37.430+0300	ERROR	repository/user_delete.go:34	Пользователь не удален	{"op": "Repository.DeleteByID", "uid": 2, "id": 2}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).DeleteByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_delete.go:34
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_delete.go:4
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_delete.go:13
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/DrusGalkin/user-info/internal/transport/http.SetupRouters.AuthMiddleware.func1
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/middleware/auth.go:30
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T16:38:41.926+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T16:38:44.901+0300	ERROR	repository/user_delete.go:40	Пользователь не удален, у вас нет прав или его не существует	{"op": "Repository.DeleteByID", "uid": 2, "id": 2}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).DeleteByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_delete.go:40
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_delete.go:4
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_delete.go:13
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/DrusGalkin/user-info/internal/transport/http.SetupRouters.AuthMiddleware.func1
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/middleware/auth.go:30
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T16:39:57.050+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T16:39:58.779+0300	ERROR	repository/user_delete.go:40	Пользователь не удален, у вас нет прав или его не существует	{"op": "Repository.DeleteByID", "uid": 2, "id": 2}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).DeleteByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_delete.go:40
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_delete.go:4
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_delete.go:13
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/DrusGalkin/user-info/internal/transport/http.SetupRouters.AuthMiddleware.func1
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/middleware/auth.go:30
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T16:40:24.735+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T16:40:26.534+0300	WARN	repository/user_delete.go:40	Пользователь не удален, у вас нет прав или его не существует	{"op": "Repository.DeleteByID", "uid": 2, "id": 2}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).DeleteByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_delete.go:40
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_delete.go:4
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_delete.go:13
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/DrusGalkin/user-info/internal/transport/http.SetupRouters.AuthMiddleware.func1
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/middleware/auth.go:30
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T16:41:19.391+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T16:41:21.007+0300	WARN	repository/user_delete.go:40	Пользователь не удален, у вас нет прав или его не существует	{"op": "Repository.DeleteByID", "uid": 2, "id": 2}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).DeleteByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_delete.go:40
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_delete.go:4
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_delete.go:13
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/DrusGalkin/user-info/internal/transport/http.SetupRouters.AuthMiddleware.func1
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/middleware/auth.go:30
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T16:42:53.104+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T16:43:00.876+0300	WARN	repository/user_delete.go:38	no rows affected - user not found or no permissions	{"op": "repository.UserRepository.DeleteByID", "uid": 2}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).DeleteByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_delete.go:38
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_delete.go:4
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_delete.go:13
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/DrusGalkin/user-info/internal/transport/http.SetupRouters.AuthMiddleware.func1
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/middleware/auth.go:30
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T16:43:12.447+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T16:43:14.528+0300	WARN	repository/user_delete.go:40	Пользователь не удален, у вас нет прав или его не существует	{"op": "Repository.DeleteByID", "uid": 2, "id": 2}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).DeleteByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_delete.go:40
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_delete.go:4
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_delete.go:13
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/DrusGalkin/user-info/internal/transport/http.SetupRouters.AuthMiddleware.func1
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/middleware/auth.go:30
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T16:45:54.447+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T16:45:57.336+0300	WARN	repository/user_delete.go:40	Пользователь не удален, у вас нет прав или его не существует	{"op": "Repository.DeleteByID", "uid": 2, "id": 2}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).DeleteByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_delete.go:40
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_delete.go:4
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_delete.go:17
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/DrusGalkin/user-info/internal/transport/http.SetupRouters.AuthMiddleware.func1
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/middleware/auth.go:30
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T16:48:43.263+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T16:48:50.334+0300	WARN	repository/user_delete.go:40	Пользователь не удален, у вас нет прав или его не существует	{"op": "Repository.DeleteByID", "uid": 2, "id": 2}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).DeleteByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_delete.go:40
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_delete.go:4
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_delete.go:17
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/DrusGalkin/user-info/internal/transport/http.SetupRouters.AuthMiddleware.func1
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/middleware/auth.go:30
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T16:49:17.677+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T16:49:21.626+0300	WARN	repository/user_delete.go:40	Пользователь не удален, у вас нет прав или его не существует	{"op": "Repository.DeleteByID", "uid": 2, "id": 2}
+github.com/DrusGalkin/user-info/internal/repository.(*UserRepository).DeleteByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/repository/user_delete.go:40
+github.com/DrusGalkin/user-info/internal/usecase.(*UserUsecase).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/usecase/user_delete.go:4
+github.com/DrusGalkin/user-info/internal/transport/http/handlers.(*UserHandler).DeleteUserByID
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/handlers/handler_delete.go:17
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/DrusGalkin/user-info/internal/transport/http.SetupRouters.AuthMiddleware.func1
+	/home/drussic/Документы/OldMine/backend/user-info/internal/transport/http/middleware/auth.go:30
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1028
+github.com/gofiber/fiber/v2/middleware/cors.New.func1
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/cors/cors.go:173
+github.com/gofiber/fiber/v2.(*Ctx).Next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/ctx.go:1025
+github.com/gofiber/fiber/v2/middleware/logger.New.func3
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/middleware/logger/logger.go:119
+github.com/gofiber/fiber/v2.(*App).next
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:143
+github.com/gofiber/fiber/v2.(*App).handler
+	/home/drussic/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.8/router.go:170
+github.com/valyala/fasthttp.(*Server).serveConn
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/server.go:2455
+github.com/valyala/fasthttp.(*workerPool).workerFunc
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:225
+github.com/valyala/fasthttp.(*workerPool).getCh.func1
+	/home/drussic/go/pkg/mod/github.com/valyala/fasthttp@v1.62.0/workerpool.go:197
+2025-06-12T23:18:45.513+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-12T23:44:46.451+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-13T00:24:59.766+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-13T00:25:33.978+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "andrew.galsdfsdfkin2018@gmail.com", "email": "andrew.galsdfsdfkin2018@gmail.com"}
+2025-06-13T00:25:36.789+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "asdas.galsdfsdfkin2018@gmail.com", "email": "asdas.galsdfsdfkin2018@gmail.com"}
+2025-06-13T00:25:39.387+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "asdas.galsdfsdfkin2018@gmail.com", "email": "asdas.galsdfsdfkin2018@gmail.com"}
+2025-06-13T00:25:45.360+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "asdas.asdas@gmail.com", "email": "asdas.asdas@gmail.com"}
+2025-06-13T00:25:47.725+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "asdas.asdsa@gmail.com", "email": "asdas.asdsa@gmail.com"}
+2025-06-13T00:25:50.247+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "asdas.asadsa@gmail.com", "email": "asdas.asadsa@gmail.com"}
+2025-06-13T00:25:52.634+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "asdas.aasadsa@gmail.com", "email": "asdas.aasadsa@gmail.com"}
+2025-06-13T00:25:54.798+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "asdaaaas.aasadsa@gmail.com", "email": "asdaaaas.aasadsa@gmail.com"}
+2025-06-13T00:25:57.693+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "asdaaaas.aasaaaadsa@gmail.com", "email": "asdaaaas.aasaaaadsa@gmail.com"}
+2025-06-13T00:26:00.775+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "asdaaaaaaaas.aasaaaadsa@gmail.com", "email": "asdaaaaaaaas.aasaaaadsa@gmail.com"}
+2025-06-13T00:26:04.220+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "asdaaaaaaaassdfsdf.aasaaaadsa@gmail.com", "email": "asdaaaaaaaassdfsdf.aasaaaadsa@gmail.com"}
+2025-06-13T00:26:07.962+0300	DEBUG	repository/user_get.go:63	Нет пользователя с данным email	{"op": "Repository.ByEmail", "email": "asdaaaaadfgdfgaaassdfsdf.aasaaaadsa@gmail.com", "email": "asdaaaaadfgdfgaaassdfsdf.aasaaaadsa@gmail.com"}
+2025-06-13T00:26:51.600+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-13T00:35:24.349+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-13T00:36:32.390+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-13T00:37:18.420+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-13T00:37:41.126+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-13T00:37:59.837+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-13T00:38:05.742+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-13T00:48:23.874+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-13T00:50:50.828+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-13T00:52:47.832+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-13T01:01:21.632+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-13T01:02:16.066+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-13T01:03:07.325+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-13T01:04:43.383+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-13T01:09:15.412+0300	INFO	api/main.go:17	Логгер и конфиг найден
+2025-06-13T01:09:48.778+0300	INFO	api/main.go:17	Логгер и конфиг найден

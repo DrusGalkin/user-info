@@ -1,0 +1,11 @@
+env: "local"
+server:
+    port: 8082
+    timeout: 5s
+grpc:
+    port: 50012
+    timeout: 5s
+redis:
+    address: "127.0.0.1"
+    port: 6379
+    ttl: 5m

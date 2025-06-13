@@ -16,7 +16,7 @@ type Repository interface {
 	DeleteByID(uid int) error
 	DeleteByUsername(username string) error
 	DeleteByEmail(email string) error
-	Update(id int, newPassword []byte) error
+	Update(id int, newPassword string) error
 }
 
 var (

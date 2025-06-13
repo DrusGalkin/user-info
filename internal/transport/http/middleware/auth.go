@@ -19,6 +19,7 @@ func AuthMiddleware(timeout time.Duration, client pk.AuthClient) fiber.Handler {
 		defer cancel()
 
 		claims, err := client.ValidToken(ctx, req)
+		fmt.Println(claims)
 		if err != nil {
 			return c.Status(401).JSON(fiber.Map{
 				"message": "невалидный токен",

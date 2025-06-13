@@ -16,10 +16,8 @@ func (h *UserHandler) UserByID(c *fiber.Ctx) error {
 			"error": err.Error(),
 		})
 	}
-
-	return c.Status(200).JSON(fiber.Map{
-		"user": user,
-	})
+	c.Locals("response", user)
+	return c.Status(200).JSON(user)
 }
 
 func (h *UserHandler) UserByEmail(c *fiber.Ctx) error {
@@ -29,10 +27,8 @@ func (h *UserHandler) UserByEmail(c *fiber.Ctx) error {
 			"error": err.Error(),
 		})
 	}
-
-	return c.Status(200).JSON(fiber.Map{
-		"user": user,
-	})
+	c.Locals("response", user)
+	return c.Status(200).JSON(user)
 }
 
 func (h *UserHandler) UserByUsername(c *fiber.Ctx) error {
@@ -42,10 +38,8 @@ func (h *UserHandler) UserByUsername(c *fiber.Ctx) error {
 			"error": err.Error(),
 		})
 	}
-
-	return c.Status(200).JSON(fiber.Map{
-		"user": user,
-	})
+	c.Locals("response", user)
+	return c.Status(200).JSON(user)
 }
 
 func (h *UserHandler) AllUsers(c *fiber.Ctx) error {
@@ -57,5 +51,5 @@ func (h *UserHandler) AllUsers(c *fiber.Ctx) error {
 	}
 
 	c.Locals("response", users)
-	return nil
+	return c.Status(200).JSON(users)
 }

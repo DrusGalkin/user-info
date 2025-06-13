@@ -20,23 +20,28 @@ func SetupRouters(handler handlers.Handler, timeout time.Duration, client pk.Aut
 	api.Post("/login", handler.Login)
 	api.Post("/refresh", handler.Refresh)
 
-	user := api.Group("/users")
+	userCache := api.Group("/users").Use(middleware.CacheMiddleware(rdb))
 	{
-		user.Get("/:id", handler.UserByID)
-		user.Get("/username/:username", handler.UserByUsername)
-		user.Get("/email/:email", handler.UserByEmail)
-		
-		cacheUser := user.Use(middleware.CacheMiddleware(rdb))
-		{
-			cacheUser.Get("", handler.AllUsers)
-		}
+		userCache.Get("", handler.AllUsers)
+		userCache.Get("/:id", handler.UserByID)
+		userCache.Get("/username/:username", handler.UserByUsername)
+		userCache.Get("/email/:email", handler.UserByEmail)
 	}
 
-	admin := user.Use(middleware.AuthMiddleware(timeout, client))
+	admin := api.Use(
+		middleware.AuthMiddleware(timeout, client),
+		middleware.AuthMiddleware(timeout, client),
+	)
 	{
 		admin.Delete("/:id", handler.DeleteUserByID)
 		admin.Delete("/username/:username", handler.DeleteUserByUsername)
 		admin.Delete("/email/:email", handler.DeleteUserByEmail)
+	}
+
+	user := api.Group("/user")
+	user.Use(middleware.AuthMiddleware(timeout, client))
+	{
+		user.Patch("/password", handler.UpdatePassword)
 	}
 
 	return api

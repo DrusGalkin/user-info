@@ -32,9 +32,7 @@ func (h *UserHandler) Register(c *fiber.Ctx) error {
 			"error": err.Error(),
 		})
 	}
-	return c.Status(200).JSON(fiber.Map{
-		"id": id,
-	})
+	return c.Status(200).JSON(id)
 }
 
 func (h *UserHandler) Login(c *fiber.Ctx) error {

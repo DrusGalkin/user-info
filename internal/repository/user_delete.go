@@ -49,7 +49,7 @@ func (u *UserRepository) DeleteByUsername(username string) error {
 	const op = "Repository.DeleteByUsername"
 	log := u.log.With(zap.String("op", op), zap.String("username", username))
 
-	query := `DELETE FROM users WHERE username = ?`
+	query := `DELETE FROM oldmine.users WHERE username = ?`
 
 	ctx, cancel := context.WithTimeout(context.Background(), u.timeout)
 	defer cancel()
@@ -69,10 +69,16 @@ func (u *UserRepository) DeleteByUsername(username string) error {
 	}
 
 	updateRows, err := result.RowsAffected()
-	if err != nil || updateRows == 0 {
+	if err != nil {
 		log.Error("Пользователь не удален", zap.Error(err))
 
 		return fmt.Errorf("%s, измененные строки %d : %w", op, updateRows, err)
+	}
+
+	if updateRows == 0 {
+		log.Warn("Пользователь не удален, у вас нет прав или его не существует", zap.String("username", username))
+
+		return ErrUserNotFound
 	}
 
 	return nil
